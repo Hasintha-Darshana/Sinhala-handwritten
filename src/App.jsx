@@ -3,6 +3,8 @@ import Header from "./components/header"
 import HomePage from "./pages/home"
 import Footer from "./components/footer"
 import AboutPage from "./pages/about"
+import ScrollToTop from "./components/ScrollToTop"
+import ResultPage from "./pages/results"
 
 function App() {
  
@@ -10,11 +12,13 @@ function App() {
   return (
    
    <BrowserRouter>
+    <ScrollToTop />
       <div>
         <Header />
           <Routes path="/*">
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path ="/results" element={<ResultPage />} />
           </Routes>
         <Footer />
       </div>
