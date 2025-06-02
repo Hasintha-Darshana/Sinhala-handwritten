@@ -1,3 +1,6 @@
+import { FaPython, FaReact } from "react-icons/fa";
+import { SiFastapi, SiRoboflow, SiTailwindcss } from "react-icons/si";
+
 export default function AboutPage() {
   return (
     <div className="w-full min-h-screen bg-gradient-to-br from-[#edf2f8] to-[#d6e6f2] px-6 pt-28 pb-12">
@@ -46,7 +49,20 @@ export default function AboutPage() {
         <p className="text-lg leading-relaxed text-justify">
          To ensure broader accessibility, we are also working on optimizing the YOLOv11 model for use on mobile phones and other low-resource devices. Through techniques such as model compression and pruning, we hope to enable real-time recognition even on devices with limited computational power. Finally, we recognize the value of user interaction in improving system performance. Therefore, we plan to add feedback features that allow users to correct errors or confirm accurate predictions, helping us continuously refine the model with real-world input.
         </p>
+        
       </div>
+      <div className="w-full h-[50px]"></div>
+        <h1 className="text-4xl font-bold text-center text-[#1e3a8a] hover:scale-105 transition-transform duration-300">
+          Tech Stack
+        </h1>
+        <div className="w-full h-[300px]  flex items-center-safe justify-evenly">
+           <FaReact className="text-8xl text-[#00c6f7] mx-4"/>
+           <SiTailwindcss className="text-8xl text-[#00bcff] mx-4"/>
+           <FaPython className="text-8xl text-[#3776AB] mx-4"/>
+           <SiFastapi className="text-8xl text-[#009485] mx-4"/>
+           <SiRoboflow className="text-8xl text-[#6306c9] mx-4"/>
+
+        </div>
     </div>
   );
 }
