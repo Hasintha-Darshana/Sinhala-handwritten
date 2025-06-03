@@ -8,7 +8,7 @@ export default function Header() {
         <img
           src="/logo.jpg"
           alt="Logo"
-          className="w-15 h-15 rounded-full object-cover cursor-pointer"
+          className="w-15 h-15 rounded-2xl object-cover cursor-pointer"
           onClick={() => window.location.href = "/"}
         />
       </div>
