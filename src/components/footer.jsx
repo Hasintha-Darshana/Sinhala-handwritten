@@ -19,17 +19,31 @@ export default function Footer() {
 </div>
 
         {/* Tech Stack */}
-        <div>
-          <h3 className="font-semibold text-lg mb-3">Tech Stack</h3>
-          <ul className="space-y-2">
-            <li>React</li>
-            <li>Tailwind CSS</li>
-            <li>Python</li>
-            <li>YOLO</li>
-            <li>Roboflow</li>
-            <li>FastAPI</li>
-          </ul>
-        </div>
+        <ul className="space-y-2 text-gray-300 ">
+          <li>
+            <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a>
+          </li>
+          <li>
+            <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">Tailwind CSS</a>
+          </li>
+          <li>
+            <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">Python</a>
+          </li>
+          <li>
+            <a href="https://github.com/AlexeyAB/darknet" target="_blank" rel="noopener noreferrer">YOLO</a>
+          </li>
+          <li>
+            <a href="https://roboflow.com/" target="_blank" rel="noopener noreferrer">Roboflow</a>
+          </li>
+          <li>
+            <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">FastAPI</a>
+          </li>
+        </ul>
+
+
+
+
+
 
         {/* Useful Links */}
         <div>
