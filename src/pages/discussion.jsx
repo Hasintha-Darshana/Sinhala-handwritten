@@ -24,7 +24,7 @@ export default function DiscussionPage() {
     {
       title: "📌 Improvements Over Traditional Methods",
       content:
-        "Unlike older systems that require pre-segmented characters, our approach detects multiple characters in one image—faster and more efficient.",
+        "Unlike traditional systems that rely on manual segmentation, our model simplifies the process by allowing users to upload one handwritten character at a time for accurate recognition.",
     },
     {
       title: "📌 Use Cases",
