@@ -30,8 +30,8 @@ export default function TeamPage() {
         alt={name}
         className="w-22 h-22 rounded-full object-cover mb-4 border-4 border-[#1e3a8a]/20"
       />
-      <h3 className="text-xl font-semibold text-[#1e3a8a]">{name}</h3>
-      <p className="text-sm text-gray-600">{role}</p>
+      <h3 className="text-xl font-bold text-[#1e3a8a]">{name}</h3>
+      <p className="text-lg text-gray-800">{role}</p>
     </div>
   );
 
