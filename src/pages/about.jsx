@@ -52,15 +52,15 @@ export default function AboutPage() {
         
       </div>
       <div className="w-full h-[50px]"></div>
-        <h1 className="text-4xl font-bold text-center text-[#1e3a8a] hover:scale-105 transition-transform duration-300">
+        <h1 className="text-4xl font-bold text-center text-[#1e3a8a] ">
           Tech Stack
         </h1>
         <div className="w-full h-[300px]  flex items-center-safe justify-evenly">
-           <FaReact className="text-8xl text-[#00c6f7] mx-4"/>
-           <SiTailwindcss className="text-8xl text-[#00bcff] mx-4"/>
-           <FaPython className="text-8xl text-[#3776AB] mx-4"/>
-           <SiFastapi className="text-8xl text-[#009485] mx-4"/>
-           <SiRoboflow className="text-8xl text-[#6306c9] mx-4"/>
+           <FaReact className="text-8xl text-[#00c6f7] mx-4 hover:scale-125 transition-transform duration-300"/>
+           <SiTailwindcss className="text-8xl text-[#00bcff] mx-4 hover:scale-125 transition-transform duration-300"/>
+           <FaPython className="text-8xl text-[#3776AB] mx-4 hover:scale-125 transition-transform duration-300"/>
+           <SiFastapi className="text-8xl text-[#009485] mx-4 hover:scale-125 transition-transform duration-300"/>
+           <SiRoboflow className="text-8xl text-[#6306c9] mx-4 hover:scale-125 transition-transform duration-300"/>
 
         </div>
     </div>
