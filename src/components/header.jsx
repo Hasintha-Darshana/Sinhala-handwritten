@@ -2,10 +2,14 @@ import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className="w-full h-[80px] bg-[#0b1f3a]/90 backdrop-blur-md shadow-md flex items-center px-6 fixed top-0 left-0 z-50">
+    <header className="w-full h-[80px] bg-[#001A3E] backdrop-blur-md shadow-md flex items-center px-6 fixed top-0 left-0 z-50">
       {/* Left: Logo or Title */}
-      <div className="text-white text-2xl font-extrabold tracking-wide">
-        Sinhala Character AI
+      <div className="flex items-center space-x-3">
+        <img
+          src="/logo.jpg"
+          alt="Logo"
+          className="w-15 h-15 rounded-full object-cover"
+        />
       </div>
 
       {/* Right: Navigation */}
