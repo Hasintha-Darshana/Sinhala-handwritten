@@ -1,6 +1,6 @@
 export default function HomePage() {
   return (
-    <div className="w-full min-h-screen bg-gradient-to-br from-[#edf2f8] to-[#d6e6f2] flex flex-col md:flex-row items-center justify-center px-6 py-12">
+    <div className="w-full min-h-screen overflow-x-hidden bg-gradient-to-br from-[#edf2f8] to-[#d6e6f2] flex flex-col md:flex-row items-center justify-center px-6 py-12">
       {/* Left Content */}
       <div className="w-full md:w-1/2 flex flex-col justify-center  space-y-6 md:pr-12">
         <h1 className="text-4xl md:text-5xl font-extrabold leading-tight drop-shadow-lg text-[#1e3a8a]">

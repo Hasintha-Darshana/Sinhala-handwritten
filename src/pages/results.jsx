@@ -1,6 +1,6 @@
 export default function ResultPage() {
     return(
-        <div className="w-full min-h-screen bg-gradient-to-br from-[#edf2f8] to-[#d6e6f2] px-6 pt-28 pb-12">
+        <div className="w-full min-h-screen overflow-x-hidden bg-gradient-to-br from-[#edf2f8] to-[#d6e6f2] px-6 pt-28 pb-12">
             <h1 className="text-4xl font-bold text-center text-[#1e3a8a] hover:scale-105 transition-transform duration-300">
                 Accuracy of the Model : <span className="text-[#3b82f6]">89.20%</span>
             </h1>
