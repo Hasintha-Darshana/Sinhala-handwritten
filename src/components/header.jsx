@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -10,36 +10,25 @@ export default function Header() {
 
       {/* Right: Navigation */}
       <nav className="ml-auto flex items-center space-x-6">
-        <Link
-          to="/"
-          className="text-white text-lg font-medium hover:text-yellow-300 transition-colors duration-300"
-        >
-          Home
-        </Link>
-        <Link
-          to="/about"
-          className="text-white text-lg font-medium hover:text-yellow-300 transition-colors duration-300"
-        >
-          About
-        </Link>
-        <Link
-          to="/results"
-          className="text-white text-lg font-medium hover:text-yellow-300 transition-colors duration-300"
-        >
-          Results
-        </Link>
-        <Link
-          to="/discussion"
-          className="text-white text-lg font-medium hover:text-yellow-300 transition-colors duration-300"
-        >
-          Discussion
-        </Link>
-        <Link
-          to="/team"
-          className="text-white text-lg font-medium hover:text-yellow-300 transition-colors duration-300"
-        >
-          Team
-        </Link>
+        {[
+          { to: "/", label: "Home" },
+          { to: "/about", label: "About" },
+          { to: "/results", label: "Results" },
+          { to: "/discussion", label: "Discussion" },
+          { to: "/team", label: "Team" }
+        ].map(({ to, label }) => (
+          <NavLink
+            key={to}
+            to={to}
+            className={({ isActive }) =>
+              `text-lg font-medium transition-colors duration-300 ${
+                isActive ? "text-yellow-300" : "text-white hover:text-yellow-300"
+              }`
+            }
+          >
+            {label}
+          </NavLink>
+        ))}
       </nav>
     </header>
   );

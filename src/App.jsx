@@ -6,6 +6,7 @@ import AboutPage from "./pages/about"
 import ScrollToTop from "./components/ScrollToTop"
 import ResultPage from "./pages/results"
 import DiscussionPage from "./pages/discussion"
+import TeamPage from "./pages/team"
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path ="/results" element={<ResultPage />} />
             <Route path="/discussion" element={<DiscussionPage />} />
+            <Route path="/team" element={<TeamPage/>} />
           </Routes>
         <Footer />
       </div>
