@@ -13,6 +13,7 @@ export default function Footer() {
     <li><Link to="/" className="hover:underline">Home</Link></li>
     <li><Link to="/about" className="hover:underline">About</Link></li>
     <li><Link to="/results" className="hover:underline">Results</Link></li>
+    <li><Link to="/discussion" className="hover:underline">Discussion</Link></li>
     <li><Link to="/team" className="hover:underline">Team</Link></li>
   </ul>
 </div>
