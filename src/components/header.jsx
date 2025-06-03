@@ -22,7 +22,7 @@ export default function Header() {
             to={to}
             className={({ isActive }) =>
               `text-lg font-medium transition-colors duration-300 ${
-                isActive ? "text-yellow-300" : "text-white hover:text-yellow-300"
+                isActive ? "text-[#38bdf8]" : "text-white hover:text-yellow-300"
               }`
             }
           >
