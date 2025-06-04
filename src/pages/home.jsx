@@ -4,7 +4,7 @@ export default function HomePage() {
       {/* Left Content */}
       <div className="w-full md:w-1/2 flex flex-col justify-center  space-y-6 md:pr-12">
         <h1 className="text-4xl md:text-5xl font-extrabold leading-tight drop-shadow-lg text-[#1e3a8a]">
-          Sinhala Handwritten Character Detection
+          Sinhala Handwritten Letter Recognition
         </h1>
         <p className="text-lg leading-relaxed text-gray-800 text-justify">
           Our project focuses on detecting Sinhala handwritten characters using the YOLOv11 object
